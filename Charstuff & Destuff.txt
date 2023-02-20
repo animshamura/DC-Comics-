@@ -29,7 +29,7 @@ void Char_Stuff(){ // function to generate the stuffed data
 void De_Stuff(){ // function to generate the stuffed data to its original form 
  i=0,j=0;
  while(ds[j]!='\0'){
- strncpy(s,ds+i,3);
+ strncpy(s,ds+j,3);
  if(strcmp(s,esc)==0) strcat(ans,esc), j+=6, i+=3;
  else ans[i++]=ds[j++];
  }
