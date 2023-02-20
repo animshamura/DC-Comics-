@@ -35,7 +35,7 @@ void De_Stuff(){ // function to generate the stuffed data to its original form
  }
  ans[i]='\0';
  printf("\nAfter De−stuffing: ");
- printf("%s",d); 
+ printf("%s",ans); 
 }
  int main(){
  printf("Enter Data In UpperCase: ");
