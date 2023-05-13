@@ -13,7 +13,7 @@ void Remainder (int rem[], int dv []){
 int main(){
    printf("Enter Divisor Bits Length : ");
    scanf("%d",&d1);
-   printf("Enter Divisor : ");
+   printf("Enter Divisor Bits : ");
    for(int i = 0; i < d1; i++) scanf("%d",&dv1[i]);
    printf("Enter Dividend Bits Length : ");
    scanf("%d",&d2);
