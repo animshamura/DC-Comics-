@@ -42,7 +42,7 @@ int c3= Check2(b1[2]);
 int c4= Check2(b1[3]);
 if(c1) printf("Class of The Given IP : %c\n",CheckClass(b1[0]));
 else printf("Invalid Class.\n");
-if(c1+c2+c3+c4==4) printf("This IP is invalid.\n");
+if(c1+c2+c3+c4==4) printf("This IP is valid.\n");
 else printf("This IP is invalid.\n");
 return 0;
 }
